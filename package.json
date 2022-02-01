@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "got": "^9.6.0",
+    "moralis": "^0.0.176",
+    "twit": "^2.2.11",
+    "web3": "^1.6.1",
+    "ws": "^3.3.3",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "scripts": {
+    "start": "node client.js",
+    "serve": "node server-test.js"
+  }
+}
