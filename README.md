@@ -5,6 +5,7 @@
 3. Use `python/scraper.py` script to download a collection to the `/images` folder.
 4. Use `python/verify.py` script to confirm all files have been downloaded for the target collection.
 5. Update the settings.js file with your public collection info, the screen_name for your twitter handle, etc.
-6. Find/Use postTest instead of postTweet to test posting first locally.
+6. Find/Use the function `postTest` instead of `postTweet` to test posting first locally.
+7. Use command `node main.js` to start the application.
 
 More Information here: https://stoubord.com/project/niftybot/
