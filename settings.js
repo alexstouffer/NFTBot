@@ -1,20 +1,20 @@
 module.exports = {
 
     // Basic Info
-    name: 'Flurks',
-    nft_collection: '0xde6b6090d32eb3eeae95453ed14358819ea30d33',
-    mint: 0.085,
+    name: 'Gemma',
+    nft_collection: '0xc7d84b7d4a04abcb9ade97b8af212423f51d2aea',
+    mint: 0.1,
 
     // Twitter username goes here
-    screen_name: 'FlurkMerchants',
+    screen_name: 'Bot_Gemma_NFT',
 
     // Only put last 5 characters of hash, for ex: 'fd3g7'
-    nftx_vault: 'fdbaf',
+    nftx_vault: '',
     
-    // Base URL for your selected marketplace
-    market: 'scatter.art',
+    // URL for your selected marketplace WITHOUT token id
+    market: 'https://opensea.io/assets/0xa7ee407497b2aeb43580cabe2b04026b5419d1dc/',
 
-    img_ext: '.png',
+    img_ext: '.JPEG',
 
     // Cap limit on Moralis requests
     limit: 10,

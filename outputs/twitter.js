@@ -119,7 +119,7 @@ postTweet = async (tx) => {
                     var meta_params = { media_id: mediaIdStr, alt_text: { text: altText } }
                 T.post('media/metadata/create', meta_params, function (err, data, response) {
                     if (!err) {
-                        var params = { status: `#${Settings.name.toUpperCase()} #${tx.token_id} SOLD for ${tx.price} ${tx.symbol} ($${tx.dollars} USD)! Recorded on block #${tx.block_number} from seller ${tx.from} to ${tx.to}. ${tx.msg} See this #nft at ${Settings.market}/tokens/${Settings.nft_collection}?token_id=${tx.token_id}`, media_ids: [mediaIdStr] }
+                        var params = { status: `#${Settings.name.toUpperCase()} #${tx.token_id} SOLD for ${tx.price} ${tx.symbol} ($${tx.dollars} USD)! Recorded on block #${tx.block_number} from seller ${tx.from} to ${tx.to}. ${tx.msg} See this #nft at ${Settings.market}${tx.token_id}`, media_ids: [mediaIdStr] }
                         T.post('statuses/update', params, function (err, data, response) {
                             console.log("TWEET SENT: " + data.text);
                         })
