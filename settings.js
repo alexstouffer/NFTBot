@@ -14,7 +14,7 @@ module.exports = {
     // URL for your selected marketplace WITHOUT token id
     market: 'https://opensea.io/assets/0xa7ee407497b2aeb43580cabe2b04026b5419d1dc/',
 
-    img_ext: '.JPEG',
+    img_ext: '.jpg',
 
     // Cap limit on Moralis requests
     limit: 10,
